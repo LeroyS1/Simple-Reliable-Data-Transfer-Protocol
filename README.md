@@ -23,14 +23,13 @@ root it to a given interface, with 10% loss without delay emulation for example:
 4. To delete the network emulation:
 `tc qdisc del dev lo0 root`
 
-
 5. use `Make` to execute server.c and client.c.
 
-6. ./server <PORT>
-    For example : .server 5555
+6. `./server <PORT>`
+    For example : `./server 5555`
 
-7. /client <HOSTNAME-OR-IP> <PORT> <FILENAME>
-    For example: ./client localhost 5555 testfile
+7. `./client <HOSTNAME-OR-IP> <PORT> <FILENAME>`
+    For example: `./client localhost 5555 testfile`
 
 
-- This project is not perfect, so I recommend you to test with small files.
+### Note: This project is not perfect, so I recommend you to test with small files.
