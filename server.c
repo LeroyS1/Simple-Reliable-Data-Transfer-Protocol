@@ -242,7 +242,6 @@ int main(int argc, char *argv[])
                 }
                 numberAcked = MAX_FILE_SIZE / 2;
             }
-            fclose(fd);
         }
     }
     //FIN tear down
